@@ -1,0 +1,10 @@
+.mainContainer {
+  display: flex !important;
+  align-items: center !important;
+}
+.smMargin {
+  margin: 10px !important;
+}
+.actionDiv {
+  text-align: center !important;
+}

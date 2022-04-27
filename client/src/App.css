@@ -1,0 +1,27 @@
+.MuiAppBar-root {
+  flex-direction: row !important;
+}
+.appTitle {
+  font-family: 'Rubik Moonrocks' !important;
+}
+.main-container {
+  flex-direction: row !important;
+}
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column-reverse !important;
+  }
+}
+.appBarSearch {
+  border-radius: 4px !important;
+  margin-bottom: 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 16px !important;
+  padding-right: 32px !important;
+}
+.pagination {
+  border-radius: 4px !important;
+  margin-top: 1rem !important;
+  padding: 16px !important;
+}

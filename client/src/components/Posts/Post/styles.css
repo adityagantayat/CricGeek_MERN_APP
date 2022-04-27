@@ -1,0 +1,63 @@
+.media {
+  height: 0 !important;
+  padding-top: 56.25% !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-blend-mode: darken !important;
+}
+.border {
+  border: solid !important;
+}
+.fullHeightCard {
+  height: 100% !important;
+}
+.card {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  border-radius: 15px !important;
+  height: 100% !important;
+  position: relative !important;
+}
+.card:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.04);
+}
+.overlay {
+  position: absolute !important;
+  top: 20px !important;
+  left: 20px !important;
+  color: white !important;
+}
+.overlay2 {
+  position: absolute !important;
+  top: 20px !important;
+  right: 20px !important;
+  color: white !important;
+}
+.grid {
+  display: flex !important;
+}
+.details {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 20px !important;
+}
+.title {
+  padding: 0 16px !important;
+}
+.cardActions {
+  padding: 0 16px 8px 16px !important;
+  display: flex;
+  justify-content: space-between !important;
+}
+.cardAction {
+  display: block !important;
+  text-align: initial !important;
+}
+.btn:hover .icon {
+  transition: all 0.2s ease-in-out !important;
+  transform: scale(1.3) !important;
+}
+.card:hover .btn-edit {
+  display: block !important;
+}

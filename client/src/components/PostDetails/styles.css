@@ -1,0 +1,64 @@
+.mediaDetails {
+  border-radius: 20px !important;
+  object-fit: cover !important;
+  width: 100% !important;
+  max-height: 600px !important;
+}
+.cardDetails {
+  display: flex !important;
+  width: 100% !important;
+  /* [theme.breakpoints.down(sm)] {
+      flexWrap: wrap !important;
+      flexDirection: column !important;
+    } */
+}
+.section {
+  border-radius: 20px !important;
+  margin: 10px !important;
+  flex: 1 !important;
+}
+.imageSection {
+  margin-left: 20px !important;
+  flex: 1 !important;
+  /* [theme.breakpoints.down(sm)] {
+      marginLeft: 0 !important;
+    } */
+}
+.recommendedPosts {
+  display: flex !important;
+  flex-wrap: wrap;
+  /* [theme.breakpoints.down(sm)] {
+      flexDirection: column !important;
+    } */
+}
+.paperRecommended {
+  flex: 1 !important;
+  max-width: 250px !important;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+}
+.paperRecommended:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.08) !important;
+}
+.imgEnd {
+  justify-content: flex-end !important;
+}
+.loadingPaper {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 20px !important;
+  border-radius: 15px !important;
+  height: 39vh !important;
+}
+.commentsOuterContainer {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.commentsInnerContainer {
+  height: 200px !important;
+  overflow: auto !important;
+  margin-right: 30px !important;
+}

@@ -1,0 +1,58 @@
+.appBar {
+  border-radius: 15px !important;
+  margin: 30px 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px 50px !important;
+  /* [theme.breakpoints.down(sm)] {
+      flexDirection: column !important;
+    } */
+}
+.heading {
+  color: rgb(4, 6, 7) !important;
+  text-decoration: none !important;
+  font-size: 3em !important;
+  font-weight: 900 !important;
+}
+.image {
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+}
+.toolbar {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 400px !important;
+  /* [theme.breakpoints.down(sm)] {
+      width: auto !important;
+    } */
+}
+.profile {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 400px !important;
+  align-items: center !important;
+  margin-left: 5rem;
+  /* [theme.breakpoints.down(sm)] {
+      width: auto !important;
+      marginTop: 20 !important;
+      justifyContent: center !important;
+    } */
+}
+.logout {
+  margin-left: 20px !important;
+}
+.userName {
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.brandContainer {
+  display: flex !important;
+  align-items: center !important;
+}
+.purple {
+  color: white !important;
+  background-color: #673ab7 !important;
+}
